@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #fffef6;
 }
 
 li,
@@ -17,8 +16,8 @@ a {
 
 .logo {
   cursor: pointer;
-  max-width: 20vw;
-  margin-top: 10px;
+  max-width: 22vw;
+  margin-top: 0px;
 }
 
 .logo:hover {
@@ -29,7 +28,7 @@ a {
 .nav_links {
   list-style: none;
   margin-right: 120px;
-  margin-top: 7px;
+  margin-top: 0px;
 }
 
 .nav_links li {
@@ -48,16 +47,36 @@ a {
   text-decoration-line: underline;
 }
 
-.icons {
-  padding: 9px 0px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 24px 10%;
   border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: #fffef6;
+}
+
+.winter-banner {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  background-color: #80a4d8;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.dk {
+  left: 20px;
+  position: absolute;
+}
+
+.shipping {
+  position: absolute;
+}
+
+.login {
+  right: 20px;
+  position: absolute;
 }
 
 .breadcrumbs {
@@ -71,11 +90,11 @@ header {
 
 .bread {
   grid-area: bread;
-  padding: 0px 10%;
+  padding: 15px 10%;
 }
 
 .bread p {
-  color: grey;
+  color: #f27a5e;
 }
 
 .bread a {
@@ -85,8 +104,158 @@ header {
 body {
   margin: 0;
   padding: 0;
+  background-color: #fffef6;
 }
 
 h1 {
   font-family: glitten;
+}
+
+p {
+  font-family: presicav, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #000000;
+  font-size: 10px;
+}
+
+h2 {
+  font-family: glitten;
+}
+
+/*product page */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 5vw;
+  padding: 5vw;
+}
+
+.purchaseBox {
+  grid-column: 1;
+  margin-top: 1.3vw;
+}
+
+.purchaseBox h2 {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.info {
+  margin-top: 2vw;
+  margin-right: 2vw;
+}
+
+.info p {
+  font-size: 12px;
+}
+
+.boxed {
+  margin-top: 2vw;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+.boxed p {
+  font-size: 12px;
+}
+
+.details {
+  margin-top: 2vw;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.delivery {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+}
+
+.products a:hover {
+  color: #f27a5e;
+}
+
+.products .smallProduct {
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.image {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 5vw;
+}
+.productlist {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+}
+.fadeInLoad {
+  animation: fadeInLoad 0.5s;
+}
+
+@keyframes fadeInLoad {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+li {
+  list-style: none;
+}
+ul {
+  margin-bottom: 0;
+}
+
+.tour__gallery {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.picture__slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+  width: 500%;
+}
+.carousel__image {
+  list-style: none;
+  flex-shrink: 0;
+  flex-basis: 20%;
+  height: 100%;
+  padding-bottom: 0;
+}
+.carousel__image img {
+  min-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
 }
