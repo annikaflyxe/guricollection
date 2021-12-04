@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fffef6;
+}
+
+li,
+a {
+  font-family: presicav, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 20vw;
+  margin-top: 10px;
+}
+
+.logo:hover {
+  animation-name: bounce2;
+  animation-duration: 0.8s;
+}
+
+.nav_links {
+  list-style: none;
+  margin-right: 120px;
+  margin-top: 7px;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  transition: all 0.3s ease 0s;
+  color: grey;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.icons {
+  padding: 9px 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.breadcrumbs {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "bread";
+}
+
+.bread {
+  grid-area: bread;
+  padding: 0px 10%;
+}
+
+.bread p {
+  color: grey;
+}
+
+.bread a {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: glitten;
+}
