@@ -123,6 +123,26 @@ h2 {
   font-family: glitten;
 }
 
+/*landing page*/
+
+.landingproducts{
+  margin-left: 200px;
+  height: 1000px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+
+
+
+
+
+
+
+
+
+
 /*product page */
 
 .container {

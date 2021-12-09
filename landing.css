@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav_links {
+    list-style: none;
+    margin-right: 215px;
+    margin-top: 0px;
+  }
+  
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+  }
+  
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: grey;
+    cursor: pointer;
+    text-decoration-line: underline;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 7%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #fffef6;
+  }
+
+  li,
+a {
+  font-family: Surt-LightExtended;;
+  font-weight: 200;
+  font-style: normal;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+  
+  .winter-banner {
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    background-color: #80a4d8;
+    justify-content: center;
+    padding-top: 8px;
+    font-family: Surt-LightExtended;
+    font-size: 12px;
+  }
+  
+  .dk {
+    left: 20px;
+    position: absolute;
+  }
+  
+  .shipping {
+    position: absolute;
+  }
+  
+  .login {
+    right: 20px;
+    position: absolute;
+  }
+
+  .logo {
+    cursor: pointer;
+    max-width: 22vw;
+    margin-top: 0px;
+  }
+
+
+
+body{
+    background-color: #fffef6;
+}  
+
+
+
+main{
+    
+
+}
+
+
+
+
+
+
+.scroll-left {
+ height: 100px;	
+ overflow: hidden;
+ position: relative;
+ color: #F27A5E;
+ margin-bottom: 1%;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 90px;
+ text-align: center;
+ font-family: Glitten;
+ font-size: 54px;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+
+
+.aw{
+  display: flex;
+justify-content: space-between;
+margin-bottom: 250px;
+
+}
+
+
+.autumn{
+  font-size: 100px;
+  font-family: glitten;
+}
+
+.awtext{
+  margin-right: 7%;
+  margin-top: 3%;
+}
+
+
+.awimg{
+  margin-left: 7%;
+}
+
+.shopfull{
+  font-size: 40px;
+}
+
+.arrow{
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 7%;
+}
+
+.arrow p{
+  font-size: 20px;
+  margin-left: 6%;
+  font-family: Surt-LightExtended;
+  
+
+}
+
+.arrow img{
+  width: 5%;
+}
+
+
+
+
+  .landingproducts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-gap: 5px;
+  }
+  .hairclaw{
+    width: 60%;
+    
+   
+}
+
+.onesmallProduct{
+    background-color: pink;
+    
+    
+}
+
+
+
+
+  .gurisisters{
+    display: flex;
+    justify-content: space-between;
+  margin-bottom: 250px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5%;
+  }
+
+  .gurisisters img{
+    width: 40%;
+  }
+  
+  
+  .sistertext{
+    
+    padding-right: 15%;
+  }
+  
+.sistertext p{
+  font-family: Surt-LightExtended;
+  margin-top: 10%;
+  line-height: 20px;
+}
+
+.sistertext h1{
+  font-family: glitten;
+  font-size: 48px;
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
