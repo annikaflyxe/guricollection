@@ -2,7 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
   }
+
+
+
+  
 
   .nav_links {
     list-style: none;
@@ -37,7 +42,7 @@ header {
 
   li,
 a {
-  font-family: Surt-LightExtended;;
+  font-family: Surt-LightExtended;
   font-weight: 200;
   font-style: normal;
   color: #000000;
@@ -84,10 +89,7 @@ body{
 
 
 
-main{
-    
 
-}
 
 
 
@@ -109,7 +111,7 @@ main{
  line-height: 90px;
  text-align: center;
  font-family: Glitten;
- font-size: 54px;
+ font-size:44px;
  /* Starting position */
  transform:translateX(100%);
  /* Apply animation to this element */
@@ -129,7 +131,7 @@ main{
 .aw{
   display: flex;
 justify-content: space-between;
-margin-bottom: 250px;
+margin-bottom: 50px;
 
 }
 
@@ -137,6 +139,7 @@ margin-bottom: 250px;
 .autumn{
   font-size: 100px;
   font-family: glitten;
+  color: #2D2D2D;
 }
 
 .awtext{
@@ -178,27 +181,71 @@ margin-bottom: 250px;
   .landingproducts{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   grid-gap: 5px;
+   grid-gap: 10px;
+   margin-left: 5%;
+   margin-right: 5%;
   }
   .hairclaw{
-    width: 60%;
+    width: 75%;
+  
     
    
 }
 
+
+.seeproducts{
+  font-size: 40px;
+  font-family: glitten;
+  margin-left: 7%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+
+.filter{
+  display: flex;
+ margin-right: 7%;
+ font-family: Surt-LightExtended;
+ font-size: 20px;
+ text-decoration: underline;
+}
+
+.collection{
+  margin-right: 45px;
+  display: flex;
+  text-align: center;
+}
+
 .onesmallProduct{
-    background-color: pink;
-    
+    display: flex;
+    text-align: center;
     
 }
 
+.pricebreadcrumbs{
+  display: flex;
+  justify-content: space-between;
+  text-align:justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.price{
+  font-size: 15px;
+}
+
+.productname{
+  font-size: 15px;
+}
 
 
 
   .gurisisters{
     display: flex;
     justify-content: space-between;
-  margin-bottom: 250px;
+  margin-bottom: 50px;
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 5%;
@@ -229,7 +276,32 @@ margin-bottom: 250px;
 
 
 
+.gurionthego{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-gap: 10px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
 
+
+div.gallery {
+  margin-left: 10px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  text-align: center;
+}
 
 
  
