@@ -5,6 +5,9 @@
     
   }
 
+  html{
+    scroll-behavior: smooth;
+  }
 
 
   
@@ -40,8 +43,7 @@ header {
     background-color: #fffef6;
   }
 
-  li,
-a {
+  li,a {
   font-family: Surt-LightExtended;
   font-weight: 200;
   font-style: normal;
@@ -200,6 +202,8 @@ margin-bottom: 50px;
   display: flex;
   text-align: center;
   justify-content: space-between;
+  margin-top: 8%;
+  margin-bottom: 3%;
   
 }
 
@@ -252,7 +256,7 @@ margin-bottom: 50px;
   }
 
   .gurisisters img{
-    width: 40%;
+    width: 30%;
   }
   
   
@@ -280,10 +284,16 @@ margin-bottom: 50px;
   display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    grid-gap: 10px;
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 7%;
+   margin-right: 7%;
 }
 
+.gurionthegotext {
+  font-size: 40px;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  font-family: glitten;
+}
 
 div.gallery {
   margin-left: 10px;
@@ -306,6 +316,202 @@ div.desc {
 
 
 
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+  .nav_links {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 7%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #fffef6;
+  }
+
+  li,a {
+    font-family: Surt-LightExtended;
+    font-weight: 200;
+    font-style: normal;
+    color: #000000;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+
+  .winter-banner {
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    background-color: #80a4d8;
+    justify-content: center;
+    padding-top: 8px;
+    font-family: Surt-LightExtended;
+    font-size: 8px;
+  }
+  
+  .dk {
+    left: 10px;
+    position: absolute;
+  }
+  
+  .shipping {
+    position: absolute;
+  }
+  
+  .login {
+    right: 10px;
+    position: absolute;
+  }
+
+  .logo {
+    cursor: pointer;
+    max-width: 22vw;
+    margin-top: 0px;
+  }
+
+  .scroll-left p{
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+
+  .aw{
+    display: none;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  
+  }
+  
+  
+  .autumn{
+    font-size: 50px;
+    font-family: glitten;
+    color: #2D2D2D;
+    margin-left: 6%;
+  }
+
+
+  
+
+  .arrow p{
+    font-size: 10px;
+    margin-left: 6%;
+    font-family: Surt-LightExtended;
+    
+  
+  }
+
+  .seeproducts{
+    font-size: 20px;
+    font-family: glitten;
+    margin-left: 7%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+  }
+  
+  .filter{
+    display: flex;
+   margin-right: 7%;
+   font-family: Surt-LightExtended;
+   font-size: 10px;
+   text-decoration: underline;
+  }
+  
+  .collection{
+    margin-right: 25px;
+    display: flex;
+    text-align: center;
+  }
+
+  .hairclaw{
+    width: 85%;
+}
+
+.landingproducts{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+ grid-gap: 10px;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+
+.gurisisters{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: 11%;
+  margin-right: 7%;
+  margin-top: 5%;
+  }
+
+  .gurisisters img{
+    width: 350px;
+    margin-top: 4%;
+    
+  }
+  
+  
+ 
+  
+.sistertext p{
+  font-family: Surt-LightExtended;
+  margin-top: 10%;
+  line-height: 20px;
+  font-size: 15px;
+  width: 350px;
+}
+
+.sistertext h1{
+  font-family: glitten;
+  font-size: 28px;
+
+}
+
+.gurionthego{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   grid-gap: 10px;
+   margin-left: 7%;
+   margin-right: 7%;
+}
+
+
+.gurionthegotext {
+  font-size: 30px;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  font-family: glitten;
+}
+
+
+
+
+
+
+}
  
 
 
