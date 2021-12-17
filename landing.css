@@ -314,8 +314,46 @@ div.desc {
 }
 
 
+footer{
+  background-color: #F2B872;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Surt-LightExtended;
+}
+
+.footercontent{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
 
 
+.shopall, .about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.shopallp, .contactp, .aboutp, .socialmediap{
+  margin-bottom: 20%;
+  font-size: 20px;
+}
+
+.email{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-family: Surt-LightExtended;
+  color: white;
+}
 
 
 
