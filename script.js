@@ -1,7 +1,15 @@
 const urlParams = new URLSearchParams(window.location.search);
 const urlId = urlParams.get("id");
+
+/*
+const url =
+"https://semester2-9155.restdb.io/rest/guricollection";
+*/
+
+
 const url =
 "https://semester2-9155.restdb.io/rest/guricollection?apikey=61362a9343cedb6d1f97ed5c&q&fbclid";
+
 
 //api key
 const options = {
@@ -49,7 +57,7 @@ copy.querySelector(".pricebreadcrumbs .productname").textContent = product.name;
 //year
 copy.querySelector(".pricebreadcrumbs .price").textContent = product.price;
 
-
+copy.querySelector("a").href += product._id;
 
 //image
 copy.querySelector(".onesmallProduct .hairclaw").src = product.img1;
