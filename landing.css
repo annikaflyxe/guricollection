@@ -554,3 +554,39 @@ header {
 
 
 
+
+
+.footercontainer
+{
+  display: flex;
+}
+
+
+input[type=text]{
+background-color: #F2B872 ;
+width: 800px;
+height: 60px;
+font-size: 22px;
+font-family: gliten;
+padding: 2%;
+border-top: none;
+border-left: none;
+border-right: none;
+border-color: white;
+color: pink;
+}
+
+.email{
+  display: flex;
+}
+
+
+input[type=submit]{
+  background-color: #F2B872;
+  padding: 2px;
+  margin-left: 2%;
+  border-color: white;
+  color: white;
+  box-shadow: none;
+  width: 5rem;
+}

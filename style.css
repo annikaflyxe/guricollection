@@ -63,6 +63,8 @@ header {
   background-color: #80a4d8;
   justify-content: center;
   padding-top: 8px;
+  font-family: Surt-LightExtended;
+  font-size: 12px;
 }
 
 .dk {
@@ -113,10 +115,10 @@ h1 {
 }
 
 p {
-  font-family: Surt-LightExtended;
+  
   font-style: normal;
   color: #2D2D2D;
-  font-size: 20px;
+  
 }
 
 h2 {
@@ -148,6 +150,7 @@ h2 {
   align-content: center;
   margin-bottom: 5vw;
   padding: 5vw;
+  font-size: 20px;
 }
 
 .purchaseBox {
