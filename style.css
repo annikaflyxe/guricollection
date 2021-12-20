@@ -6,11 +6,11 @@
 
 li,
 a {
-  font-family: presicav, sans-serif;
+  font-family: Surt-LightExtended;
   font-weight: 200;
   font-style: normal;
   color: #000000;
-  font-size: 14px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -20,14 +20,11 @@ a {
   margin-top: 0px;
 }
 
-.logo:hover {
-  animation-name: bounce2;
-  animation-duration: 0.8s;
-}
+
 
 .nav_links {
   list-style: none;
-  margin-right: 120px;
+  margin-right: 215px;
   margin-top: 0px;
 }
 
@@ -51,7 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 10%;
+  padding: 24px 7%;
   border-bottom: 1px solid rgb(0, 0, 0);
   background-color: #fffef6;
 }
