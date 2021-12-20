@@ -27,7 +27,7 @@
 
 li,
 a {
-  font-family: Surt-LightExtended;
+  font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-style: normal;
   color: #000000;
@@ -81,7 +81,7 @@ header {
   background-color: #80a4d8;
   justify-content: center;
   padding-top: 8px;
-  font-family: Surt-LightExtended;
+  font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -131,14 +131,14 @@ body {
 }
 
 h1 {
-  font-family: glitten;
+  font-family: glitten, 'Times New Roman', Times, serif;
   color: #2d2d2d;
 }
 
 
 
 h2 {
-  font-family: glitten;
+  font-family: glitten, 'Times New Roman', Times, serif;
   color: #2d2d2d;
 }
 
@@ -302,7 +302,7 @@ div.related img {
   margin: 0;
   line-height: 90px;
   text-align: center;
-  font-family: Glitten;
+  font-family: Glitten, 'Times New Roman', Times, serif;
   font-size: 44px;
   /* Starting position */
   transform: translateX(100%);
@@ -331,7 +331,7 @@ div.related img {
   font-size: 40px;
   margin-left: 7%;
   margin-bottom: 5%;
-  font-family: glitten;
+  font-family: glitten, 'Times New Roman', Times, serif;
 }
 
 div.gallery {
@@ -351,7 +351,7 @@ footer {
   background-color: #f2b872;
   padding-top: 5%;
   padding-bottom: 5%;
-  font-family: Surt-LightExtended;
+  font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
 }
 
 .footercontent {
@@ -388,7 +388,7 @@ footer p{
 .email {
   display: flex;
   justify-content: center;
-  font-family: Surt-LightExtended;
+  font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
   color: white;
   margin-top: 0px;
 }
@@ -456,7 +456,7 @@ input[type="submit"] {
 
   li,
   a {
-    font-family: Surt-LightExtended;
+    font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #000000;
@@ -471,7 +471,7 @@ input[type="submit"] {
     background-color: #80a4d8;
     justify-content: center;
     padding-top: 8px;
-    font-family: Surt-LightExtended;
+    font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
     font-size: 8px;
   }
 
@@ -553,7 +553,7 @@ input[type="submit"] {
 
   li,
 a {
-  font-family: Surt-LightExtended;
+  font-family: Surt-LightExtended, Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-style: normal;
   color: #000000;
