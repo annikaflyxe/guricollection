@@ -1,6 +1,17 @@
+
+@font-face {
+  font-family: 'glittenregular';
+  src: url('glitten-regular-webfont.woff2') format('woff2'),
+       url('glitten-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
 }
 
@@ -10,7 +21,7 @@ a {
   font-weight: 200;
   font-style: normal;
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -87,6 +98,8 @@ header {
   grid-template-areas: "bread";
 }
 
+
+
 .bread {
   grid-area: bread;
   padding: 15px 10%;
@@ -111,10 +124,7 @@ h1 {
   color: #2d2d2d;
 }
 
-p {
-  font-style: normal;
-  color: #2d2d2d;
-}
+
 
 h2 {
   font-family: glitten;
@@ -242,4 +252,301 @@ li {
 
 .productimg {
   width: 100%;
+}
+
+
+
+.realtedproducts{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+
+
+div.related {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+div.related img {
+  width: 100%;
+  height: auto;
+}
+
+
+.scroll-left {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  color: #f27a5e;;
+  margin-bottom: 1%;
+}
+.scroll-left p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 90px;
+  text-align: center;
+  font-family: Glitten;
+  font-size: 44px;
+  /* Starting position */
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.gurionthego {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 5%;
+}
+.gurionthegotext {
+  font-size: 40px;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  font-family: glitten;
+}
+
+div.gallery {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+footer {
+  background-color: #f2b872;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Surt-LightExtended;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.shopall,
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer p{
+  color: white;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shopallp,
+.contactp,
+.aboutp,
+.socialmediap {
+  
+  font-size: 20px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  font-family: Surt-LightExtended;
+  color: white;
+  margin-top: 0px;
+}
+
+
+
+.footercontainer {
+  display: flex;
+}
+
+input[type="text"] {
+  background-color: #f2b872;
+  width: 13rem;
+  height: 60px;
+  font-size: 10px;
+  font-family: gliten;
+  padding: 2%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  border-color: rgb(12, 12, 12);
+  color: pink;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.email {
+  display: flex;
+}
+
+input[type="submit"] {
+  background-color: #f2b872;
+  padding: 2px;
+  margin-left: 2%;
+  border-color: white;
+  color: white;
+  box-shadow: none;
+  width: 5rem;
+}
+
+
+
+@media screen and (max-width: 780px){
+  .nav_links {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 7%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #fffef6;
+    flex-direction: column;
+  }
+
+  li,
+  a {
+    font-family: Surt-LightExtended;
+    font-weight: 200;
+    font-style: normal;
+    color: #000000;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+  .winter-banner {
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    background-color: #80a4d8;
+    justify-content: center;
+    padding-top: 8px;
+    font-family: Surt-LightExtended;
+    font-size: 8px;
+  }
+
+  .dk {
+    left: 10px;
+    position: absolute;
+  }
+
+  .shipping {
+    position: absolute;
+  }
+
+  .login {
+    right: 10px;
+    position: absolute;
+  }
+
+  .logo {
+    cursor: pointer;
+    max-width: 22vw;
+    margin-top: 0px;
+  }
+  .info{
+    font-size: 12px;
+  }
+
+
+  .container {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    grid-gap: 3vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5vw;
+    padding: 5vw;
+    font-size: 20px;
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.shopallp,
+.contactp,
+.aboutp,
+.socialmediap {
+  margin-bottom: 10%;
+  font-size: 20px;
+}
+
+.maxtext, .some{
+  display: none;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  
+}
+ 
+}
+
+
+@media screen and (max-width: 1300px){
+  .nav_links{
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 950px){
+  .nav_links{
+    margin-right: 0px;
+    font-size: 10px;
+  }
+
+  li,
+a {
+  font-family: Surt-LightExtended;
+  font-weight: 200;
+  font-style: normal;
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+}
 }
