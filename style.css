@@ -111,32 +111,18 @@ body {
 
 h1 {
   font-family: glitten;
-  color: #2D2D2D;
+  color: #2d2d2d;
 }
 
 p {
-  
   font-style: normal;
-  color: #2D2D2D;
-  
+  color: #2d2d2d;
 }
 
 h2 {
   font-family: glitten;
-  color: #2D2D2D;
+  color: #2d2d2d;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*product page */
 
@@ -163,7 +149,7 @@ h2 {
   font-weight: normal;
 }
 
-.information{
+.information {
   margin-top: 2vw;
   margin-right: 2vw;
 }
@@ -243,28 +229,20 @@ h2 {
 }
 
 .image-list {
-    display: flex;
-    
-   }
+  display: flex;
+}
 
+li {
+  margin: 0 0.1rem 0 0.1rem;
+  flex-basis: 100%;
+  list-style: none;
+}
+.image-list img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
 
-    li {
-      margin: 0 0.1rem 0 0.1rem;
-      flex-basis: 100%;
-      list-style: none;
-      
-    }
-    .image-list img {
-      
-      width: 100%;
-      transition: opacity 0.3s ease;
-      cursor: pointer;
-     
-    }
-
-    .productimg{
-      width: 100%;
-    }
-  
-
-    
+.productimg {
+  width: 100%;
+}
